@@ -20,19 +20,19 @@ function Footer() {
         <div>
           <ul className="flex flex-col gap-3">
             <li className="text-2xl font-semibold xl:pb-4 pb-2">Explore</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Services</li>
-            <li className="text-nowrap">Case Studies</li>
-            <li>Blog</li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/about-us">About</Link></li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/#recentwork">Work</Link> </li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/services">Services</Link></li>
+            <li className="text-nowrap hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/case-studies">Case Studies</Link></li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/blog">Blog</Link></li>
           </ul>
         </div>
         <div>
           <ul className="flex flex-col gap-3">
             <li className="text-2xl font-semibold xl:pb-4 pb-2">Resources</li>
-            <li>Meet Team</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/team">Meet Team</Link></li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/testimonials">Testimonials</Link></li>
+            <li className="hover:text-[#fe4c1c]"><Link href="https://www.sgwebapp.com/contact">Contact</Link></li>
           </ul>
         </div>
         <div>
@@ -46,9 +46,9 @@ function Footer() {
             <i className='bx bx-current-location align-middle' style={{color: '#fe4c1c'}}></i> <p>1ST FLOOR No. 3, 3rd Cross, Green Leaf Extension 4th Block,
               Koramangala, Bangalore-560034</p>
             </li>
-            <li className="flex items-center gap-2"><i className='bx bx-phone' style={{color: '#fe4c1c'}}></i> <p>011 45149984</p></li>
-            <li className="flex items-center gap-2"><i className='bx bx-phone' style={{color: '#fe4c1c'}}></i> <p>+91 7977757864</p></li>
-            <li className="flex items-center gap-2"><i className='bx bx-envelope' style={{color: '#fe4c1c'}}></i> <p>info@sgwebapp.com</p></li>
+            <li className="flex items-center gap-2"><i className='bx bx-phone' style={{color: '#fe4c1c'}}></i> <p className="hover:text-[#fe4c1c]"><Link href="tel:011 45149984">011 45149984</Link></p></li>
+            <li className="flex items-center gap-2"><i className='bx bx-phone' style={{color: '#fe4c1c'}}></i> <p className="hover:text-[#fe4c1c]"><Link href="tel:7977757864">+91 7977757864</Link></p></li>
+            <li className="flex items-center gap-2"><i className='bx bx-envelope' style={{color: '#fe4c1c'}}></i> <p className="hover:text-[#fe4c1c]"><Link href="info@sgwebapp.com">info@sgwebapp.com</Link></p></li>
           </ul>
         </div>
       </div>
