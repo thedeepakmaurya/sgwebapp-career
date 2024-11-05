@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <header className="w-full flex xl:px-[8%] px-[4%] justify-between h-20 bg-gradient-to-r from-[#65258a] to-[#e80566] max-w-[100vw] relative">
+    <header className="w-full sticky top-0 flex xl:px-[8%] px-[4%] justify-between h-20 bg-gradient-to-r from-[#65258a] to-[#e80566] max-w-[100vw]">
       <Image
         className="h-full"
         src="https://www.sgwebapp.com/img/sg-web-techiques-logo.svg"

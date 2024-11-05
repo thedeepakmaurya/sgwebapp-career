@@ -7,35 +7,35 @@
     {
       "title": "Interaction Designer",
       "location": "New Mexico, USA",
-      "salary": "$50-80k/month",
+      "salary": "50-80k/month",
       "et": "4 Days Remaining",
       "icon": "bx bxl-figma bx-md"
     },
     {
       "title": "Project Manger",
       "location": "Mumbai, India",
-      "salary": "$20-40k/month",
+      "salary": "20-40k/month",
       "et": "3 Days Remaining",
       "icon": "bx bx-notepad bx-md"
     },
     {
       "title": "Marketing Manger",
       "location": "Toronto, Canada",
-      "salary": "$30-60k/month",
+      "salary": "30-60k/month",
       "et": "2 Days Remaining",
       "icon": "bx bx-store-alt bx-md"
     },
     {
         "title": "Networking Engineer",
         "location": "London, UK",
-        "salary": "$20-40k/month",
+        "salary": "20-40k/month",
         "et": "2 Days Remaining",
         "icon": "bx bx-network-chart bx-md"
       },
       {
         "title": "Product Designer",
         "location": "Moscow, Russia",
-        "salary": "$100-120k/month",
+        "salary": "100-120k/month",
         "et": "2 Days Remaining",
         "icon": "bx bxl-sketch bx-md"
       }

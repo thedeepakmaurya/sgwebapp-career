@@ -18,15 +18,15 @@ function Card({title, location, salary, et, iconClass}) {
             </p>
           </div>
           <div className="flex items-center gap-4 text-sm text-gray-400">
-            <p>
-              <i className="bx bx-current-location"></i> {location}
-            </p>
-            <p>
-              <i className="bx bx-dollar"></i> {salary}
-            </p>
-            <p>
-              <i className="bx bx-calendar-alt"></i> {et}
-            </p>
+            <div className="flex xl:items-center lg:items-center md:items-center gap-1">
+              <i className="bx bx-current-location"></i><p>{location}</p> 
+            </div>
+            <div className="flex xl:items-center lg:items-center md:items-center gap-1">
+              <i className="bx bx-dollar"></i><p>{salary}</p> 
+            </div>
+            <div className="flex xl:items-center lg:items-center md:items-center gap-1">
+              <i className="bx bx-calendar-alt"></i><p>{et}</p> 
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center gap-4">
