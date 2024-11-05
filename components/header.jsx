@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="w-full flex px-[8%] justify-between h-20 bg-gradient-to-r from-[#65258a] to-[#e80566]">
+    <header className="w-full flex xl:px-[8%] px-[3%] justify-between h-20 bg-gradient-to-r from-[#65258a] to-[#e80566] max-w-[100vw]">
       <Image
         className="h-full "
         src="https://www.sgwebapp.com/img/sg-web-techiques-logo.svg"
@@ -11,7 +11,7 @@ function Header() {
         height={100}
         width={170}
       />
-      <ul className="flex gap-7 items-center text-white text-md">
+      <ul className="xl:flex lg:flex hidden gap-7 items-center text-white text-md ">
         <li>
           <Link href="https://www.sgwebapp.com/about-us">About</Link>
         </li>
@@ -27,7 +27,7 @@ function Header() {
         <li>
           <Link href="https://www.sgwebapp.com/blog">Blog</Link>
         </li>
-        <li className="bg-white py-3 px-5  text-black rounded-md hover:bg-[#fe4c1c]">
+        <li className="bg-white py-3 px-6  text-black rounded-md hover:bg-[#fe4c1c]">
           <Link className="flex gap-2" href="https://www.sgwebapp.com/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -3,33 +3,33 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="px-[8%] bg-[#100f1f] text-white">
-      <div className="flex justify-center gap-16 py-24">
-        <div className="flex flex-col gap-5 ">
+    <footer className="xl:px-[6%] px-[4%] bg-[#100f1f] text-white max-w-[100vw]">
+      <div className="flex xl:flex-row lg:flex-row md:flex-row flex-col justify-center gap-10 xl:gap-12 xl:py-20 py-16">
+        <div className="flex flex-col gap-4 ">
           <Image src="https://www.sgwebapp.com/img/sg-web-techiques-logo.svg" alt="logo" width={200} height={50} />
           <p className="text-lg ">At SG web app Techniques, we believe that IT should be an enabler, not a hindrance.</p>
-          <div className="flex gap-5">
-          <i className='bx bxl-instagram bx-sm'></i>
-          <i className='bx bxl-facebook bx-sm' ></i>
-          <i className='bx bxl-twitter bx-sm' ></i>
-          <i className='bx bxl-linkedin bx-sm' ></i>
-          <i className='bx bxl-youtube bx-sm' ></i>
-          <i className='bx bxl-pinterest-alt bx-sm' ></i>
+          <div className="flex gap-2.5">
+          <i className='bx bxl-instagram bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5'></i>
+          <i className='bx bxl-facebook bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5' ></i>
+          <i className='bx bxl-twitter bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5' ></i>
+          <i className='bx bxl-linkedin bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5' ></i>
+          <i className='bx bxl-youtube bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5' ></i>
+          <i className='bx bxl-pinterest-alt bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5' ></i>
           </div>
         </div>
         <div>
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-semibold pb-4">Explore</li>
+            <li className="text-2xl font-semibold xl:pb-4 pb-2">Explore</li>
             <li>About</li>
             <li>Work</li>
             <li>Services</li>
-            <li>Case Studies</li>
+            <li className="text-nowrap">Case Studies</li>
             <li>Blog</li>
           </ul>
         </div>
         <div>
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-semibold pb-4">Resources</li>
+            <li className="text-2xl font-semibold xl:pb-4 pb-2">Resources</li>
             <li>Meet Team</li>
             <li>Testimonials</li>
             <li>Contact</li>
@@ -37,7 +37,7 @@ function Footer() {
         </div>
         <div>
           <ul className="flex flex-col gap-3">
-            <li className="text-2xl font-semibold pb-4">Address</li>
+            <li className="text-2xl font-semibold xl:pb-4 pb-2">Address</li>
             <li className="flex gap-2">
             <i className='bx bx-current-location align-middle' style={{color: '#fe4c1c'}}></i> <p>SG WEBAPP TECHNIQUES PVT LTD No - 12 , 2nd floor, 40, DLE
               Industrial Area, Kirti Nagar, Delhi, 110015</p>
@@ -53,14 +53,14 @@ function Footer() {
         </div>
       </div>
       <hr className="border-1 border-white" />
-      <div className="flex justify-between py-6 text-lg">
-        <p className="w-1/2">
-          Copyright &copy; 2024 All rights reserved{" "}
+      <div className="flex xl:flex-row lg:flex-row flex-col xl:justify-between lg:justify-between justify-center py-6 text-lg">
+        <p className="xl:w-1/2 w-full text-center xl:text-left lg:text-left pb-2">
+          Copyright &copy; 2024 All rights reserved
           <Link className="text-[#fe4c1c]" href="/">
-            SG Web App Techniques Pvt. Ltd.
+             SG Web App Techniques Pvt. Ltd.
           </Link>
         </p>
-        <p className="w-1/2 text-right">Terms & Conditions | Privacy Policy</p>
+        <p className="xl:w-1/2 w-full xl:text-right lg:text-right text-center">Terms & Conditions | Privacy Policy</p>
       </div>
     </footer>
   );
