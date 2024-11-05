@@ -30,7 +30,6 @@ function Card({title, location, salary, et, iconClass}) {
           </div>
         </div>
         <div className="flex items-center justify-center gap-4">
-          <i className="bx bx-bookmark"></i>
           <button className="flex items-center gap-2 text-sm font-medium text-blue-700 bg-blue-100 px-4 py-1.5 rounded-sm">
             Apply Now
             <svg

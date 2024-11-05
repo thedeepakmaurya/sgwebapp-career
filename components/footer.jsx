@@ -32,7 +32,7 @@ function Footer() {
               <Link href="https://www.sgwebapp.com/about-us">About</Link>
             </li>
             <li className="hover:text-[#fe4c1c]">
-              <Link href="https://www.sgwebapp.com/#recentwork">Work</Link>{" "}
+              <Link href="https://www.sgwebapp.com/#recentwork">Work</Link>
             </li>
             <li className="hover:text-[#fe4c1c]">
               <Link href="https://www.sgwebapp.com/services">Services</Link>
@@ -70,7 +70,7 @@ function Footer() {
               <i
                 className="bx bx-current-location align-middle"
                 style={{ color: "#fe4c1c" }}
-              ></i>{" "}
+              ></i>
               <p>
                 SG WEBAPP TECHNIQUES PVT LTD No - 12 , 2nd floor, 40, DLE
                 Industrial Area, Kirti Nagar, Delhi, 110015
@@ -80,26 +80,26 @@ function Footer() {
               <i
                 className="bx bx-current-location align-middle"
                 style={{ color: "#fe4c1c" }}
-              ></i>{" "}
+              ></i>
               <p>
                 1ST FLOOR No. 3, 3rd Cross, Green Leaf Extension 4th Block,
                 Koramangala, Bangalore-560034
               </p>
             </li>
             <li className="flex items-center gap-2">
-              <i className="bx bx-phone" style={{ color: "#fe4c1c" }}></i>{" "}
+              <i className="bx bx-phone" style={{ color: "#fe4c1c" }}></i>
               <p className="hover:text-[#fe4c1c]">
                 <Link href="tel:011 45149984">011 45149984</Link>
               </p>
             </li>
             <li className="flex items-center gap-2">
-              <i className="bx bx-phone" style={{ color: "#fe4c1c" }}></i>{" "}
+              <i className="bx bx-phone" style={{ color: "#fe4c1c" }}></i>
               <p className="hover:text-[#fe4c1c]">
                 <Link href="tel:7977757864">+91 7977757864</Link>
               </p>
             </li>
             <li className="flex items-center gap-2">
-              <i className="bx bx-envelope" style={{ color: "#fe4c1c" }}></i>{" "}
+              <i className="bx bx-envelope" style={{ color: "#fe4c1c" }}></i>
               <p className="hover:text-[#fe4c1c]">
                 <Link href="info@sgwebapp.com">info@sgwebapp.com</Link>
               </p>
