@@ -9,10 +9,10 @@ function Card({ title, location, salary, et, iconClass, experience }) {
         <div className="flex xl:hidden lg:hidden md:hidden flex-col items-center gap-2">
             <h2 className="font-semibold text-gray-800 text-nowrap">{title}</h2>
             <div className="flex gap-2">
-              <p className="text-[#ffedf5] text-sm bg-[#e80566] px-3 rounded-full">
+              <p className="text-pink-500 text-sm bg-pink-100 px-3 rounded-full">
                 Featured
               </p>
-              <p className="text-[#eedff6] text-sm bg-[#65258a] px-3 rounded-full">
+              <p className="text-blue-500 text-sm bg-blue-100 px-3 rounded-full">
                 Remote
               </p>
             </div>
@@ -24,10 +24,10 @@ function Card({ title, location, salary, et, iconClass, experience }) {
           <div className="xl:flex lg:flex md:flex hidden flex-row items-center gap-2">
             <h2 className="font-semibold text-gray-800 text-nowrap">{title}</h2>
             <div className="flex gap-2">
-              <p className="text-[#ffedf5] text-sm bg-[#e80566] px-3 rounded-full">
+              <p className="text-pink-500 text-sm bg-pink-100 px-3 rounded-full">
                 Featured
               </p>
-              <p className="text-[#eedff6] text-sm bg-[#65258a] px-3 rounded-full">
+              <p className="text-blue-500 text-sm bg-blue-100 px-3 rounded-full">
                 Remote
               </p>
             </div>
@@ -60,7 +60,7 @@ function Card({ title, location, salary, et, iconClass, experience }) {
             href={`mailto:hr@sgwebapp.com?subject=Application for ${title} Position`}
             passHref
           >
-            <button className=" w-full flex items-center justify-center gap-2 text-sm font-medium text-white bg-gradient-to-r from-[#65258a] to-[#e80566] px-4 py-1.5 rounded-sm ">
+            <button className=" w-full flex items-center justify-center gap-2 text-sm font-medium text-blue-500 bg-blue-100 px-4 py-1.5 rounded-sm ">
               Apply Now
               <svg
                 xmlns="http://www.w3.org/2000/svg"
