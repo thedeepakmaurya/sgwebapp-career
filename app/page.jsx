@@ -13,7 +13,7 @@ export default function Home() {
         {details.description}
       </p>
 
-      <section className="flex flex-col gap-5 py-10 xl:px-40 lg:px-20">
+      <section className=" flex flex-col gap-5 py-10 xl:px-40 lg:px-20">
         {positions.map((position, index) => (
           <Card
             key={index}
