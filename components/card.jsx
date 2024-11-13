@@ -7,17 +7,16 @@ function Card({ title, location, salary, et, iconClass, experience }) {
         <i className={iconClass}></i>
 
         <div className="flex xl:hidden lg:hidden md:hidden flex-col items-center gap-2">
-            <h2 className="font-semibold text-gray-800 text-nowrap">{title}</h2>
-            <div className="flex gap-2">
-              <p className="text-pink-500 text-sm bg-pink-100 px-3 rounded-full">
-                Featured
-              </p>
-              <p className="text-blue-500 text-sm bg-blue-100 px-3 rounded-full">
-                Remote
-              </p>
-            </div>
+          <h2 className="font-semibold text-start w-full text-gray-800 text-nowrap">{title}</h2>
+          <div className="flex gap-2">
+            <p className=" text-pink-500 text-sm bg-pink-100 px-3 rounded-full">
+              Featured
+            </p>
+            <p className="text-blue-500 text-sm bg-blue-100 px-3 rounded-full">
+              Remote
+            </p>
           </div>
-
+        </div>
       </div>
       <div className="w-full flex xl:flex-row lg:flex-row md:flex-row flex-col gap-4 justify-between">
         <div className="flex flex-col gap-2">
@@ -56,7 +55,8 @@ function Card({ title, location, salary, et, iconClass, experience }) {
           </div>
         </div>
         <div className="flex items-center justify-center gap-4">
-          <Link className="w-full"
+          <Link
+            className="w-full"
             href={`mailto:hr@sgwebapp.com?subject=Application for ${title} Position`}
             passHref
           >
