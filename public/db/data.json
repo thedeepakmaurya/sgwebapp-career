@@ -9,35 +9,40 @@
       "location": "New Mexico, USA",
       "salary": "50-80k/month",
       "et": "4 Days Remaining",
-      "icon": "bx bxl-figma bx-md"
+      "icon": "bx bxl-figma bx-md",
+      "experience": "Intern, Fresher"
     },
     {
       "title": "Project Manger",
       "location": "Mumbai, India",
       "salary": "20-40k/month",
       "et": "3 Days Remaining",
-      "icon": "bx bx-notepad bx-md"
+      "icon": "bx bx-notepad bx-md",
+      "experience": "Intern, Fresher"
     },
     {
       "title": "Marketing Manger",
       "location": "Toronto, Canada",
       "salary": "30-60k/month",
       "et": "2 Days Remaining",
-      "icon": "bx bx-store-alt bx-md"
+      "icon": "bx bx-store-alt bx-md",
+      "experience": "Intern, Fresher"
     },
     {
-        "title": "Networking Engineer",
-        "location": "London, UK",
-        "salary": "20-40k/month",
-        "et": "2 Days Remaining",
-        "icon": "bx bx-network-chart bx-md"
-      },
-      {
-        "title": "Product Designer",
-        "location": "Moscow, Russia",
-        "salary": "100-120k/month",
-        "et": "2 Days Remaining",
-        "icon": "bx bxl-sketch bx-md"
-      }
+      "title": "Networking Engineer",
+      "location": "London, UK",
+      "salary": "20-40k/month",
+      "et": "2 Days Remaining",
+      "icon": "bx bx-network-chart bx-md",
+      "experience": "Intern, Fresher"
+    },
+    {
+      "title": "Product Designer",
+      "location": "Moscow, Russia",
+      "salary": "100-120k/month",
+      "et": "2 Days Remaining",
+      "icon": "bx bxl-sketch bx-md",
+      "experience": "Intern, Fresher"
+    }
   ]
 }

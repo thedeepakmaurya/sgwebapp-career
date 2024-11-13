@@ -22,6 +22,7 @@ export default function Home() {
             salary={position.salary}
             et={position.et}
             iconClass={position.icon}
+            experience={position.experience}
           />
         ))}
       </section>
