@@ -17,12 +17,13 @@ function Footer() {
             not a hindrance.
           </p>
           <div className="flex gap-2.5">
-            <i className="bx bxl-instagram bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
-            <i className="bx bxl-facebook bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
-            <i className="bx bxl-twitter bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
-            <i className="bx bxl-linkedin bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
-            <i className="bx bxl-youtube bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
-            <i className="bx bxl-pinterest-alt bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i>
+           <Link href="https://www.instagram.com/sgwebapp?igsh=MWljbzFocTNmYWw0bQ=="><i className="bx bxl-instagram bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://www.facebook.com/profile.php?id=61564439541569&mibextid=ZbWKwL"><i className="bx bxl-facebook bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://x.com/sgwebapp"><i className="bx bxl-twitter bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://www.linkedin.com/in/sg-web-app-techniques-pvt-ltd-ab7621322/"><i className="bx bxl-linkedin bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://www.youtube.com/@SGWebAppTechniques"><i className="bx bxl-youtube bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://in.pinterest.com/sgwebapptechniques/"><i className="bx bxl-pinterest-alt bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
+            <Link href="https://www.reddit.com/user/Nearby_Individual_62/"><i className="bx bxl-reddit bg-[#1e1d2f] hover:bg-[#fe4c1c] p-1.5"></i></Link>
           </div>
         </div>
         <div>
